@@ -1,0 +1,19 @@
+{
+  "name": "webextension-css-mime-type",
+  "version": "1.0.0",
+  "description": "A simple web-extension that rewrites vendor specific css content-type",
+  "main": "main.js",
+  "devDependencies": {
+    "web-ext": "7.6.1"
+  },
+  "scripts": {
+    "build": "web-ext build --overwrite-dest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devilj/webextension-css-mime-type.git"
+  },
+  "author": "devilj",
+  "license": "ISC",
+  "homepage": "https://github.com/devilj/webextension-css-mime-type#readme"
+}

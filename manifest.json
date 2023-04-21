@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "css-mime-type-override",
+  "version": "1.0",
+
+  "description": "Allow to override css mime types",
+
+  "applications": {
+    "gecko": {
+      "strict_min_version": "52.0"
+    }
+  },
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+
+  "background": {
+    "scripts": ["main.js"]
+  }
+}
